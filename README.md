@@ -1,27 +1,47 @@
-# DemoApp
+# Welcome to Advanced Angular: Components and Unit Testing
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.5.
+## Instructor
 
-## Development server
+Eric Greene - [http://t4d.io](http://t4d.io) - [LinkedIn](https://www.linkedin.com/in/ericwgreene)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Schedule
 
-## Code scaffolding
+Class:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Next Two Weeks, Tuesday and Wednesday: 845am to 12:15pm GMT 
 
-## Build
+Breaks:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Morning Break: One 15 mins break about halfway through
 
-## Running unit tests
+## Course Outline
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+TypeScript & JavaScript topics will be included as needed into the Angular content
 
-## Running end-to-end tests
+- Day 1 & 2 - Components
+- Day 3 & 4 - Unit Testing
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Links
 
-## Further help
+### Instructor's Resources
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- [Accelebrate, Inc.](https://www.accelebrate.com/)
+- [Eric's Blog](http://t4d.io/)
+- [WintellectNOW](https://www.wintellectnow.com/Home/Instructor?instructorId=EricGreene) - Special Offer Code: GREENE-2016
+- [Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=Eric%20Greene&lang=1033)
+
+### Other Resources
+
+- [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
+- [JavaScript Air Podcast](http://javascriptair.podbean.com/)
+- [Speaking JavaScript](http://speakingjs.com/es5/)
+
+## Useful Resources
+
+- [TypeScript Coding Guidelines](https://github.com/Microsoft/TypeScript/wiki/Coding-guidelines)
+- [Angular Style Guide](https://angular.io/docs/ts/latest/guide/style-guide.html)
+- [Angular Cheat Sheet](https://angular.io/docs/ts/latest/guide/cheatsheet.html)
+- [Angular API](https://angular.io/docs/ts/latest/api/)
+- [Angular Quick Start Project](https://angular.io/docs/ts/latest/quickstart.html)
+- [Angular Webpack Project](https://angular.io/docs/ts/latest/guide/webpack.html)
+- [Angular Class - Angular Webpack Project](https://github.com/AngularClass/angular2-webpack-starter)
