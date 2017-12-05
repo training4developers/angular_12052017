@@ -1,0 +1,37 @@
+{
+  "colors": [
+    {
+      "id": 1,
+      "name": "red",
+      "hexCode": "#ff0000"
+    },
+    {
+      "id": 2,
+      "name": "green",
+      "hexCode": "#00ff00"
+    },
+    {
+      "id": 3,
+      "name": "blue",
+      "hexCode": "#0000ff"
+    }
+  ],
+  "cars": [
+    {
+      "id": 1,
+      "make": "GM",
+      "model": "Volt",
+      "year": 2017,
+      "color": "blue",
+      "price": 21000
+    },
+    {
+      "make": "Ford",
+      "model": "T",
+      "year": 2013,
+      "color": "red",
+      "price": 123,
+      "id": 2
+    }
+  ]
+}
