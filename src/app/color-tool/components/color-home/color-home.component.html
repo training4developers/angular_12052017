@@ -1,3 +1,14 @@
-<p>
-  color-home works!!!!!
-</p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>HexCode</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let color of colors">
+      <td>{{color.name}}</td>
+      <td>{{color.hexCode}}</td>
+    </tr>
+  </tbody>
+</table>

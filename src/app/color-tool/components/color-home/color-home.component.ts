@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+
+import { Color } from '../../models/color';
 
 @Component({
   selector: 'color-home',
@@ -7,9 +10,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ColorHomeComponent implements OnInit {
 
-  constructor() { }
+  public colors: Color[] = [];
+
+  // private httpClient;
+
+  // constructor(httpClient: HttpClient) {
+  //   this.httpClient = httpClient;
+  // }
+
+  constructor(private httpClient: HttpClient) { }
 
   ngOnInit() {
+
+    this.httpClient.get<Color[]>('http://localhost:3050/colors')
+      .subscribe(colors => this.colors = colors);
   }
 
 }
