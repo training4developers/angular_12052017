@@ -1,0 +1,13 @@
+Lab Exercise #1
+
+1. Create a new component in the Car Tool module named Car Home component
+
+ng g component car-tool/components/car-home -m car-tool
+
+2. Export the new component from the Car Tool module
+
+3. Import the Car Tool module into the App module
+
+4. Display the Car Home component in the app.component.html file.
+
+5. Load the page, ensure the Car Home Component is displayed 
