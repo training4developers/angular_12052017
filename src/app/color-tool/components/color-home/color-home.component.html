@@ -6,6 +6,10 @@
     </tr>
   </thead>
   <tbody>
+    <!-- ngFor, ngIf, ngSwitch common structural directives -->
+    <tr *ngIf="colors.length === 0">
+      <td colspan="5">No Data</td>
+    </tr>
     <tr *ngFor="let color of colors">
       <td>{{color.name}}</td>
       <td>{{color.hexCode}}</td>

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 
 import { Color } from '../../models/color';
+import { ColorsService } from '../../services/colors.service';
 
 @Component({
   selector: 'color-home',
@@ -12,18 +12,12 @@ export class ColorHomeComponent implements OnInit {
 
   public colors: Color[] = [];
 
-  // private httpClient;
-
-  // constructor(httpClient: HttpClient) {
-  //   this.httpClient = httpClient;
-  // }
-
-  constructor(private httpClient: HttpClient) { }
+  // must be registered with the providers in the module to inject
+  constructor(private colorsSvc: ColorsService) { }
 
   ngOnInit() {
-
-    this.httpClient.get<Color[]>('http://localhost:3050/colors')
-      .subscribe(colors => this.colors = colors);
+    // the colors service returns an observable which can be subscribed too
+    this.colorsSvc.all().subscribe(colors => this.colors = colors);
   }
 
 }
