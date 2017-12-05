@@ -1,0 +1,9 @@
+Exercise 2
+
+1. Create a Car Model (look at the JSON data to create the model)
+
+ng g interface car-tool/models/car
+
+2. Import the HttpClient Module into Car Tool Module
+
+3. Display a list of cars inside the Car Home component
