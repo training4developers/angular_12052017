@@ -8,7 +8,7 @@ Eric Greene - [http://t4d.io](http://t4d.io) - [LinkedIn](https://www.linkedin.c
 
 Class:
 
-- Next Two Weeks, Tuesday and Wednesday: 845am to 12:15pm GMT 
+- Next Two Weeks, Tuesday and Wednesday: 845am to 12:15pm GMT
 
 Breaks:
 
