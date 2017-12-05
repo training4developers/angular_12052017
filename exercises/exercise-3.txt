@@ -1,0 +1,20 @@
+Exercise #3
+
+1. Create a Cars service. And move the HttpClient code to it.
+
+ng g service car-tool/services/cars
+
+2. Use the new Cars service inside of Car Home to display the table of cars.
+
+3. Add a no data row to the Cars table.
+
+4. Create a Cars Table component.
+
+ng g component car-tool/components/car-table -m car-tool
+
+5. Move the car table from Car Home to Car Table component.
+
+6. Use the new Car Table component to display the cars in Car Home.
+
+***** Use the db.json file from the GitHub for the car data
+***** Be sure to have a column for each car field except for inside

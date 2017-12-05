@@ -1,18 +1,7 @@
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>HexCode</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- ngFor, ngIf, ngSwitch common structural directives -->
-    <tr *ngIf="colors.length === 0">
-      <td colspan="5">No Data</td>
-    </tr>
-    <tr *ngFor="let color of colors">
-      <td>{{color.name}}</td>
-      <td>{{color.hexCode}}</td>
-    </tr>
-  </tbody>
-</table>
+<header>
+  <h1>Color Tool</h1>
+</header>
+<color-table [colorData]="colors"></color-table>
+<footer>
+  <small>Copyright 2017, A Cool Company, Inc. All Rights Reserved.</small>
+</footer>

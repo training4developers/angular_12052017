@@ -1,0 +1,19 @@
+<table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>HexCode</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- ngFor, ngIf, ngSwitch common structural directives -->
+      <tr *ngIf="colorData.length === 0">
+        <td colspan="5">No Data</td>
+      </tr>
+      <tr *ngFor="let color of colorData">
+        <td>{{color.name}}</td>
+        <td>{{color.hexCode}}</td>
+      </tr>
+    </tbody>
+  </table>
+
