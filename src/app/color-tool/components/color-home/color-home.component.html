@@ -2,23 +2,7 @@
   <h1>Color Tool</h1>
 </header>
 <color-table-wrapper [colorData]="colors"></color-table-wrapper>
-<form [formGroup]="colorForm">
-
-  <div>
-    <label for="name-input">Name:</label>
-    <input type="text" id="name-input" formControlName="nameInput">
-    <span *ngIf="colorForm.controls.nameInput.invalid">Name is required</span>
-  </div>
-
-  <div>
-    <label for="hexcode-input">HexCode:</label>
-    <input type="text" id="hexcode-input" formControlName="hexCodeInput">
-  </div>
-
-  <button type="button" (click)="showFormData()">Save</button>
-
-
-</form>
+<color-form (saveColor)="insertColor($event)"></color-form>
 <footer>
   <small>Copyright 2017, A Cool Company, Inc. All Rights Reserved.</small>
 </footer>
