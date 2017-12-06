@@ -1,0 +1,17 @@
+Exercise 4
+
+1. Create a car form into the Car Home component. Please use Reactive Forms.
+
+2. For the make input, setup a required validator. When the field is invalid and touched please make the border red.
+
+3. For the model input, setup a required validaror. When the field is invalid and touched please display a message next to the field. Use CSS to show/hide the message.
+
+4. For the year input, setup a required validaror. When the field is invalid and touched please display a message next to the field. Use ngIf to show/hide the message.
+
+5. Add an insert function to the CarsService.
+
+Sample Code:
+
+insert = (car: Car) => this.httpClient.post<number>(this.baseUrl, car).toPromise();
+
+And configure the save button of the car form, call the insert function to insert the car, then refresh the car table with the inserted car.
