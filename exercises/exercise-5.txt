@@ -1,0 +1,25 @@
+Exercise #5
+
+1. Move Car Form to its own component. Utilize the new component in Car Home.
+
+2. Move the Car Table Row to its own component. Utlize the new Car Table Row component in
+Car Table component.
+
+Example of how to use a different kind of selector other than a custom element.
+
+@Component({
+  selector: 'tr[car-view-row]'
+})
+export class CarTableRow {
+
+}
+
+3. Add an additional column to the table. The column header for the new column is called 'Action'.
+
+4. On EACH car table row, place a Delete button. When Delete is clicked it should remove the car from
+the REST server, and the table should be refreshed.
+
+a. Enhance the CarsService to support delete.
+
+b. DO NOT INJECT the CarsService into the Car Table Row.
+
