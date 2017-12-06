@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormBuilder } from '@angular/forms';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
 import { Color } from '../../models/color';
 import { ColorsService } from '../../services/colors.service';
@@ -21,7 +21,7 @@ export class ColorHomeComponent implements OnInit {
   ) {
 
     this.colorForm = this.fb.group({
-      nameInput: '',
+      nameInput: [ '', Validators.required ],
       hexCodeInput: '',
     });
 
